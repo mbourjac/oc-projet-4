@@ -715,7 +715,23 @@ p {
     font-weight: 700;
 }
 
-.social {
+nav.social {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social .col-sm-3 {
+    width: auto;
+}
+
+a.social {
+    display: block;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 400px;
     margin: auto auto auto auto;
 }
