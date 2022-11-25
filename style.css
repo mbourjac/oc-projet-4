@@ -337,6 +337,26 @@ a:hover {
     background: transparent;
 }
 
+.header-nav-item::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #F3976C;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s;
+}
+
+.header-nav-item[aria-current="page"]::after,
+.header-nav-item:hover::after {
+    transform: scaleX(1);
+}
+
+.nav li:not(:last-child) .header-nav-item {
+    margin-right: 20px;
+}
+
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
