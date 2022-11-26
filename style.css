@@ -547,10 +547,17 @@ button {
     opacity: 1;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    width: 270px;
 }
 
 a[data-lightbox]:hover::before {
