@@ -686,6 +686,11 @@ a {
     color: #575757!important;
 }
 
+blockquote,
+figcaption {
+    color: #000000;
+}
+
 .container {
     max-width: 1000px;
 }
