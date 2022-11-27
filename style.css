@@ -18,6 +18,12 @@ a:hover {
     cursor: pointer;
 }
 
+.page-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
