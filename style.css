@@ -293,7 +293,7 @@ a {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .row-no-gutters {
@@ -795,6 +795,30 @@ h1 {
 
 h4 {
     color: #333333!important;
+}
+
+#bloc-2-services .container {
+    padding: 65px 0;
+}
+
+#bloc-2-services h2 {
+    margin-bottom: 60px;
+}
+
+figure {
+    margin-bottom: 20px;
+}
+
+#bloc-3-what-i-do h2 {
+    margin-bottom: 40px;
+}
+
+#bloc-4-portfolio .container {
+    padding: 65px 0;
+}
+
+#bloc-4-portfolio h2 {
+    margin-bottom: 34px;
 }
 
 .icons {
