@@ -1163,4 +1163,7 @@ footer h2 {
     .portfolio-row article:first-child {
         margin-bottom: 60px;
     }
+    #bloc-7 .container {
+        padding: 0 15px;
+    }
 }
