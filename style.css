@@ -1163,7 +1163,22 @@ footer h2 {
     .portfolio-row article:first-child {
         margin-bottom: 60px;
     }
+    #bloc-6 h1 {
+        margin-bottom: 40px;
+    }
     #bloc-7 .container {
         padding: 0 15px;
+    }
+    #bloc-7 h2 {
+        margin: 65px 0 40px;
+    }
+    .form-group {
+        margin-bottom: 35px;
+    }
+    p.required-input {
+        margin-bottom: 45px;
+    }
+    button[type="submit"] {
+        margin-bottom: 65px;
     }
 }
