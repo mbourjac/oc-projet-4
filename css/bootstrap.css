@@ -6111,9 +6111,8 @@ a.thumbnail:hover {
 }
 
 .alert-warning {
-    color: #8a6d3b;
-    background-color: #fcf8e3;
-    border-color: #faebcc
+    color: #FFFFFF;
+    background-color: #CC3232;
 }
 
 .alert-warning hr {
@@ -6125,9 +6124,8 @@ a.thumbnail:hover {
 }
 
 .alert-danger {
-    color: #a94442;
-    background-color: #f2dede;
-    border-color: #ebccd1
+    color: #FFFFFF;
+    background-color: #CC3232;
 }
 
 .alert-danger hr {
@@ -6136,6 +6134,10 @@ a.thumbnail:hover {
 
 .alert-danger .alert-link {
     color: #843534
+}
+
+#form-alert {
+    margin-top: 5px;
 }
 
 @-webkit-keyframes progress-bar-stripes {
