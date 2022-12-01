@@ -7,15 +7,32 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
-button {
-    transition: all .3s ease-in-out;
-    outline: none!important;
-}
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+a:focus-visible,
+button:focus-visible,
+.form-control:focus,
+input:focus-visible {
+    outline: 2px solid #CD4D11;
+    outline-offset: 4px;
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px #FFFFFF;
+    text-decoration: none;
+}
+
+a.cta-hero:focus-visible {
+    border-radius: 40px;
+}
+
+.form-control:focus {
+    border-color: transparent;
+}
+
+button.cta-hero {
+    border: none;
 }
 
 h1,
@@ -173,7 +190,7 @@ a {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: #F3976C;
+    color: #CD4D11;
     transform: scale(1.2);
 }
 
@@ -367,7 +384,7 @@ a {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #F3976C;
+    background-color: #CD4D11;
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.25s;
@@ -496,10 +513,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
-
 .btn-rd {
     border-radius: 40px;
 }
@@ -559,7 +572,7 @@ button {
     opacity: 0;
     z-index: 500;
     color: #364577!important;
-    background-color: #F3976C;
+    background-color: #CD4D11;
     transition: all .3s ease-in-out;
 }
 
@@ -734,6 +747,25 @@ p {
     font-family: "Open Sans";
 }
 
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+}
+
 .cta-hero {
     height: 48px;
     margin-top: 22px;
@@ -868,7 +900,7 @@ footer h2 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CD4D11;
 }
 
 .tc-white {
@@ -882,11 +914,11 @@ footer h2 {
 }
 
 .btn-dark-slate-blue:hover {
-    background-color: #F3976C;
+    background-color: #CD4D11;
 }
 
 .btn-atomic-tangerine:hover {
-    color: #F3976C!important;
+    color: #CD4D11!important;
 }
 
 .ltc-white {
@@ -898,7 +930,7 @@ footer h2 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #CD4D11!important;
 }
 
 .ltc-atomic-tangerine:hover {
