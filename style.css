@@ -419,7 +419,14 @@ a {
     z-index: 2;
 }
 
+.desktop-br {
+    display: none;
+}
+
 @media (min-width: 768px) {
+    .desktop-br {
+        display: inline;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;
