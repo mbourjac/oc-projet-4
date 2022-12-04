@@ -870,6 +870,11 @@ figure {
     margin-bottom: 40px;
 }
 
+#bloc-3-what-i-do a {
+    display: block;
+    font-size: 1rem;
+}
+
 #bloc-4-portfolio .container {
     padding: 65px 0;
 }
