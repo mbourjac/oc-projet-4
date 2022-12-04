@@ -580,7 +580,15 @@ nav .caret {
     z-index: 500;
     color: #F4A179!important;
     background-color: #364576;
-    transition: all .3s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.scrollToTop:hover {
+    background-color: #7C2F0A;
+}
+
+.scrollToTop:hover .fa {
+    transform: scale(1.4);
 }
 
 .scrollToTop .fa {
@@ -589,6 +597,9 @@ nav .caret {
     align-items: center;
     height: 100%;
     font-size: 0.875rem;
+    transform: scale(1);
+    transform-origin: center 65%;
+    transition: all .25s ease-in-out;
 }
 
 .showScrollTop {
