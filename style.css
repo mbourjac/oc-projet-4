@@ -668,53 +668,71 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+    text-align: center;
 }
 
 .close-lightbox {
-    color: #FFF;
+    width: 40px;
+    height: 40px;
+    color: #F4A179;
     font-size: 30px;
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: #364576;
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
+    font-weight: 700;
+    transition: all .2s ease-in-out;
 }
 
 .close-lightbox:hover,
 .next-lightbox:hover,
 .prev-lightbox:hover {
-    opacity: 1.0;
-    color: #FFF;
+    color: #364576;
+    background: #F4A179;
 }
 
 .next-lightbox,
 .prev-lightbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    background: #364576;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+}
+
+.next-lightbox .fa,
+.prev-lightbox .fa {
+    color: #F4A179;
+    transition: all .2s ease-in-out;
+}
+
+.next-lightbox:hover .fa,
+.prev-lightbox:hover .fa {
+    color: #364576;
 }
 
 .next-lightbox {
-    padding: 6px 8px 1px 13px;
+    padding-left: 3px;
     right: 25px;
 }
 
 .prev-lightbox {
-    padding: 6px 13px 1px 10px;
+    padding-right: 3px;
     left: 25px;
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 55px;
 }
 
 .snapshot-lb .lightbox-caption {
